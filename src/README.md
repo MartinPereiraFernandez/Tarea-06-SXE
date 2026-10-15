@@ -1,4 +1,5 @@
 # Academia Erasmus+
+## Martín Pereira - Martín Barreiro - Juan Martínez
 ## Como se levanta?
 Para ello necesitaremos saber que servicios vamos a usar, para esta ocasión hemos elegido:
 ###### Base de datos --> MariaDB  
