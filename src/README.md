@@ -27,12 +27,10 @@ Esto se copiará al .env con el comando:
 
 ### 5. Como últimos pasos accederemos a la aplicación con el enlace que nos entrega que en este caso es:  
 ###### http://localhost:8080 (usuario: "admin", password: ...)   
-  
-![image (1).png](../../../Descargas/image%20%281%29.png)  
+![image (1).png](image%20%281%29.png)
 
 Y comprobaremos que todo funciona correctamente:  
-![Captura desde 2026-10-14 13-42-08.png](../../../Descargas/Captura%20desde%202026-10-14%2013-42-08.png)
-
+![Captura desde 2026-10-14 13-42-08.png](Captura%20desde%202026-10-14%2013-42-08.png)
 
 
 
