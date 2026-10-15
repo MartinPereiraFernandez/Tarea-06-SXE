@@ -11,7 +11,7 @@ cd rutaHaciaElArchivoDeDocker
 
 ### 2. Se creará el fichero con todas las variables y se rellenarán las 3 contraseñas necesarias:
 
-En el .env debería aparecer algo así solo que se ocultan las contraseñas ya que es un example:
+En el .env debería aparecer algo así solo que se ocultan las contraseñas ya que es un example:  
 DB_ROOT_PASSWORD=  
 DB_PASSWORD=  
 ADMIN_PASSWORD=  
@@ -32,6 +32,15 @@ Esto se copiará al .env con el comando:
 Y comprobaremos que todo funciona correctamente:  
 ![Captura desde 2026-10-14 13-42-08.png](Captura%20desde%202026-10-14%2013-42-08.png)
 
+### 6. Accederemos también al adminer con la siguiente URL:
+###### http://localhost:8090 (usuario: espocrm, password:...) 
+![image.png](image.png)
+![Captura desde 2026-10-14 14-06-28.png](Captura%20desde%202026-10-14%2014-06-28.png)
 
-
-
+## Incidencias:  
+Tuvimos una incidencia con el nombre del contenedor, daba un error  "Conflict", ya que existían contenedores anteriores con el mismo nombre.  
+Se solucionó forzando su eliminación con docker rm -f y creando un archivo nuevo con ese nombre.  
+![Captura desde 2026-10-15 11-09-21.png](Captura%20desde%202026-10-15%2011-09-21.png)  
+Falló la descarga de Adminer porque la versión 4.8 no estaba, que era la que habíamos descargado.  
+Se solucionó cambiando manualmente  de la versión 4.8 a la 4.8.1:  
+![Captura desde 2026-10-15 11-05-28.png](Captura%20desde%202026-10-15%2011-05-28.png)
