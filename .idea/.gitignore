@@ -1,13 +1,1 @@
-
-/shelf/
-/workspace.xml
-
-/httpRequests/
-
-/queries/
-
-/dataSources/
-/dataSources.local.xml
-DB_ROOT_PASSWORD=juanbarritopereira
-DB_PASSWORD=juanbarritopereira
-ADMIN_PASSWORD=juanbarritopereira
+.env
